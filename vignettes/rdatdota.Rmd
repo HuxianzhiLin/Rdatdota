@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r, echo = FALSE, results='hide'}
-setwd("C:/Users/lhxz/Documents/GitHub/Huxianzhi_Lin/final project/Rdatdota/R")
+setwd("C:/Users/lhxz/Documents/GitHub/Rdatdota/R")
 temp = list.files(pattern="*.R")
 lapply(temp, source)
 ```
@@ -333,7 +333,7 @@ str(get_team()$content[[1]][[1]])
 ### BUGS / FEATURES
 
 If you would like to make any recommendations or give feedback or report a bug please visit the
-development site on [github](https://github.com/QMSS-G5072-2018/Huxianzhi_Lin/blob/master/final%20project/Rdatdota).
+development site on [github](https://github.com/HuxianzhiLin/Rdatdota).
 
 
 You made it to the end of the documentation! Thanks for reading! 

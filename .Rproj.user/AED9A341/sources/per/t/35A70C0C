@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "445487995",
+    "hash" : "3758361902",
     "id" : "35A70C0C",
-    "lastKnownWriteTime" : 1544476162,
-    "last_content_update" : 1544476162320,
+    "lastKnownWriteTime" : 1544478862,
+    "last_content_update" : 1544478862515,
     "path" : "~/GitHub/Rdatdota/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "149,184",
+        "cursorPosition" : "155,9",
         "last_setup_crc32" : "",
-        "scrollLine" : "0"
+        "scrollLine" : "123"
     },
     "relative_order" : 1,
     "source_on_save" : false,
