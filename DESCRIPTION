@@ -1,0 +1,23 @@
+Package: Rdatdota
+Type: Package
+Title: An R datdota API Client for Valve's Dota2
+Version: 0.0.1
+Authors@R: person("Huxianzhi Lin", 
+                  email = "hl3209@columbia.edu",
+                  role = c("aut", "cre", "cph"))
+URL: https://github.com/QMSS-G5072-2018/Huxianzhi_Lin/tree/master/final%20project/Rdatdota               
+BugReports: https://github.com/QMSS-G5072-2018/Huxianzhi_Lin/tree/master/final%20project/Rdatdota/issues
+Depends: R (>= 3.2.0)
+Imports: httr,
+         jsonlite,
+         stringr
+Description: An R API Client for datdota. Rdatdota can be easily used 
+    to connect to the datdota API and retrieve data for Valve's popular video 
+    game Dota2.
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.1.0
+Suggests: testthat,
+          knitr,
+          rmarkdown
+VignetteBuilder: knitr

@@ -1,0 +1,6 @@
+"0","payback$y <- factor(payback$y, labels = c(""yes"", ""no""), levels = 1:0)"
+"0","payback <- payback[ , -c(10,11)]"
+"0","payback <- na.omit(payback)"
+"0","in_train <- createDataPartition(payback$y, p = 3 / 4, list = FALSE)"
+"0","payback_training <- payback[ in_train, ]"
+"0","payback_testing  <- payback[-in_train, ] "
