@@ -5,11 +5,11 @@ RDota2
 
 #### Released Version
 
-[Github](https://github.com/QMSS-G5072-2018/Huxianzhi_Lin/blob/master/final%20project/Rdatdota)
+[Github](https://github.com/HuxianzhiLin/Rdatdota)
 
 #### Description
 
-This is an R datdota API client specifically designed for Valve's game Dota2.
+This is an R datdota API client specifically designed for Valve's game Dota2. The main contributions of this package are to add the API documentation and make the input of parameters more user friendly.
 
 Responsible Use
 ---------------
@@ -24,7 +24,7 @@ To install the development version you need to have the `devtools` package insta
 Then to install Rdatdota run the following on your console:
 
 ``` r
-devtools::install_github('QMSS-G5072-2018/Huxianzhi_Lin/tree/master/final%20project/Rdatdota')
+devtools::install_github('HuxianzhiLin/Rdatdota')
 ```
 
 #### Core Function
@@ -142,10 +142,8 @@ Each function returns a named list with the following elements:
 Links
 -----
 
-To read the tutorial and documentation for RDota2 please visit [Rdatdota](https://cran.r-project.org/web/packages/RDota2/vignettes/RDota2.html).
-
-To find out about the Steam API Documentation you can visit [Steam](https://steamcommunity.com/linkfilter/?url=http://wiki.teamfortress.com/wiki/WebAPI).
+To read the tutorial and documentation for rdatdota please visit [Rdatdota](https://github.com/HuxianzhiLin/Rdatdota/blob/master/vignettes/rdatdota.Rmd).
 
 To check the data on the website you can visit [datdota](www.datdota.com)
 
-To see the released version you can visit [Github](https://github.com/QMSS-G5072-2018/Huxianzhi_Lin/tree/master/final%20project/Rdatdota).
+To see the rdatdota website you can visit [Rdatdota](https://huxianzhilin.github.io/Rdatdota/docs/articles/rdatdota.html).
