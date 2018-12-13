@@ -1,0 +1,59 @@
+"0","library(BART)"
+"0","X_train <- model.matrix(y ~ loan_amnt + int_rate + installment + emp_length + annual_inc, data = payback_training)"
+"0","X_test <- model.matrix(y ~ loan_amnt + int_rate + installment + emp_length + annual_inc, data = payback_testing)"
+"0","out <- pbart(X_train, y = payback_training$y == ""yes"", X_test)"
+"1","*****Into main of pbart
+"
+"1","*****Data:
+"
+"1","data:n,p,np: 14587, 5, 4861
+"
+"1","y1,yn: 1, 0
+"
+"1","x1,x[n*p]: 7800.000000, 49000.000000
+"
+"1","xp1,xp[np*p]: 10800.000000, 43200.000000
+"
+"1","*****Number of Trees: 50
+"
+"1","*****Number of Cut Points: 100 ... 100
+"
+"1","*****burn and ndpost: 100, 1000
+"
+"1","*****Prior:mybeta,alpha,tau: 2.000000,0.950000,0.212132
+"
+"1","*****binaryOffset: -1.075766
+"
+"1","*****Dirichlet:sparse,theta,omega,a,b,rho,augment: "
+"1","0"
+"1",","
+"1","0"
+"1",","
+"1","1"
+"1",","
+"1","0.5"
+"1",","
+"1","1"
+"1",","
+"1","5"
+"1",","
+"1","0"
+"1","
+"
+"1","*****nkeeptrain,nkeeptest,nkeeptreedraws: 1000,1000,1000
+"
+"1","*****printevery: 100
+"
+"1","*****skiptr,skipte,skiptreedraws: 1,1,1
+"
+"1","
+MCMC
+"
+"1","done 0 (out of 1100)
+"
+"1","done 100 (out of 1100)
+"
+"1","done 200 (out of 1100)
+"
+"1","done 300 (out of 1100)
+"
