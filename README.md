@@ -142,8 +142,8 @@ Each function returns a named list with the following elements:
 Links
 -----
 
-To read the tutorial and documentation for rdatdota please visit [Rdatdota](https://github.com/HuxianzhiLin/Rdatdota/blob/master/vignettes/rdatdota.Rmd).
+To read the tutorial and documentation for rdatdota please visit [Rdatdota](https://github.com/Rdatdota/blob/master/vignettes/rdatdota.Rmd).
 
-To check the data on the website you can visit [datdota](www.datdota.com)
+To check the data on the website you can visit [datdota](https://www.datdota.com)
 
 To see the rdatdota website you can visit [Rdatdota](https://huxianzhilin.github.io/Rdatdota/docs/articles/rdatdota.html).
